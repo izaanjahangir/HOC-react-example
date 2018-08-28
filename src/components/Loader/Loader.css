@@ -1,0 +1,19 @@
+.loader-container{
+    position: fixed;
+    width: 60px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.loader-container img{
+    width: 100%;
+    animation: loading 500ms linear infinite alternate;
+}
+@keyframes loading{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

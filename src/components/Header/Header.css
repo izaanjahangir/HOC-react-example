@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: var(--custom-theme-dark);
+    color: var(--custom-font-light);
+}
+.header *{
+    margin: 0;
+}
+.header a, .header a:hover{
+    text-decoration: none;
+    color: var(--custom-font-light);
+}
